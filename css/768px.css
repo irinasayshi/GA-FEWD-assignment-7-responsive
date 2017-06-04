@@ -1,0 +1,45 @@
+/*Responsive Design*/
+
+@media screen and (max-width: 768px){
+
+body {
+  font-size: 20px;
+}
+
+  header nav {
+    display: none;
+  }
+  
+  #ham-menu {
+    display: inline;
+  }
+  
+  header ul {
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: right;
+  }
+
+  header li {
+    width: 100%;
+    text-align: right;
+  }
+  
+  p {
+    font-size: 75%;
+  }
+  
+  #benefits li {
+    font-size: 75%;
+    text-align: left;
+  }
+  
+  #hero {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  header nav { 
+    display: block !important;
+}
